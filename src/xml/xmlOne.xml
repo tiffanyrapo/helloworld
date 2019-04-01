@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comic-list [
+        <!ELEMENT comic-list (entry+)>
+        <!ELEMENT entry       (author, title, rating)>
+        <!ELEMENT author    (#PCDATA)>
+        <!ELEMENT title         (#PCDATA)>
+        <!ELEMENT rating     (#PCDATA)>
+        ]>
+
+<!DOCTYPE comic-list SYSTEM "comic-list.dtd" >
+
+<comic-list>
+    <entry>
+        <author>井上雄彥</author>
+        <title>灌籃高手</title>
+        <rating>普遍級</rating>
+    </entry>
+    <entry>
+        <author>青山剛昌</author>
+        <title>名偵探柯南</title>
+        <rating>限制級</rating>
+    </entry>
+    <entry>
+        <author></author>
+        <title></title>
+        <rating></rating>
+    </entry>
+</comic-list>

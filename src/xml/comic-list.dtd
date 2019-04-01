@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT comic-list (entry)>
+        <!ELEMENT entry       (author, title, rating)>
+        <!ELEMENT author    (#PCDATA)>
+        <!ELEMENT title         (#PCDATA)>
+        <!ELEMENT rating     (#PCDATA)>

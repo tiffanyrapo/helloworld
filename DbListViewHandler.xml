@@ -1,0 +1,25 @@
+<result id="0b0000018005299d" name="維管束植物模式標本Type and Old Specimens of Vascular Plants">
+  <desc>生物模式標本及存證標本是基礎分類學及相關應用生物學研究之重要標本，是新物種發表，分類物種評斷參考依據，對於生物界分類研究是很重要的依據，故若缺少模式標本資料，則對於鑑定台灣本地物種將會造成很大的損失或威脅，因此在研究與貢獻度更顯格外重要。&lt;P/&gt;&lt;font color="#0000FF"&gt;&lt;B&gt;藍色粗體: 模式標本與文獻齊全&lt;/B&gt;&lt;/font&gt;&lt;BR/&gt;&lt;font color="#0000FF"&gt;&lt;I&gt;藍色斜體: 只有模式標本&lt;/I&gt;&lt;/font&gt;&lt;BR/&gt;&lt;font color="#0000FF" style="text-decoration:underline"&gt;藍色底線: 只有文獻&lt;/font&gt;&lt;BR/&gt;&lt;font color="#000000"&gt;黑色正體非模式之古老標本&lt;/font&gt;</desc>
+  <ancestors />
+  <children>
+    <item id="0b00000180e5ad3a" name="蕨類植物門Pteridophyta" numFound="104" />
+    <item id="0b00000180e5aec6" name="種子植物門Spermatophyta" numFound="1552" />
+  </children>
+  <descendants numFound="1656" start="0">
+    <item>
+      <ID></ID>
+      <NAME></NAME>
+      <CATEGORY></CATEGORY>
+    </item>
+    <item id="0b00000181e8ddfb" name="&lt;font color=&quot;#000000&quot;&gt;Adiantum flabellulatum&lt;/font&gt;" category="/ 蕨類植物門 / 鐵線蕨科" thumbnail="" />
+    <item id="0b00000181d55b4a" name="&lt;font color=&quot;#0000FF&quot;&gt;&lt;B&gt;Adiantum diaphanum&lt;/B&gt;&lt;/font&gt;" category="/ 蕨類植物門 / 鐵線蕨科" thumbnail="" />
+    <item id="0b00000181ed1437" name="&lt;font color=&quot;#0000FF&quot;&gt;&lt;B&gt;Hemionitis japonica&lt;/B&gt;&lt;/font&gt;" category="/ 蕨類植物門 / 鐵線蕨科" thumbnail="" />
+    <item id="0b00000181e8de6c" name="&lt;font color=&quot;#000000&quot;&gt;Tectaria subtriphylla&lt;/font&gt;" category="/ 蕨類植物門 / 三叉蕨科" thumbnail="0900000181e8de8b_th.jpg" />
+    <item id="0b00000181e1b423" name="&lt;font color=&quot;#0000FF&quot; style=&quot;text-decoration:underline&quot;&gt;Alsophila subglandulosa&lt;/font&gt;" category="/ 蕨類植物門 / 三叉蕨科" thumbnail="" />
+    <item id="0b00000181e815e1" name="&lt;font color=&quot;#0000FF&quot; style=&quot;text-decoration:underline&quot;&gt;Polypodium subtriphyllum&lt;/font&gt;" category="/ 蕨類植物門 / 三叉蕨科" thumbnail="" />
+    <item id="0b00000181ecbbc7" name="&lt;font color=&quot;#0000FF&quot;&gt;&lt;B&gt;Aspidium brachiatum&lt;/B&gt;&lt;/font&gt;" category="/ 蕨類植物門 / 三叉蕨科" thumbnail="" />
+    <item id="0b00000181ef1292" name="&lt;font color=&quot;#0000FF&quot;&gt;&lt;B&gt;Polypodium dissectum&lt;/B&gt;&lt;/font&gt;" category="/ 蕨類植物門 / 三叉蕨科" thumbnail="" />
+    <item id="0b00000181e1b420" name="&lt;font color=&quot;#0000FF&quot;&gt;&lt;I&gt;Aspidium variolos&lt;/I&gt;&lt;/font&gt;" category="/ 蕨類植物門 / 三叉蕨科" thumbnail="" />
+    <item id="0b00000181e8dfef" name="&lt;font color=&quot;#000000&quot;&gt;Asplenium nidus&lt;/font&gt;" category="/ 蕨類植物門 / 鐵角蕨科" thumbnail="0900000181e8dfd6_th.jpg" />
+  </descendants>
+</result>
