@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
 
-public class xmlPractice {
+public class XmlPractice {
     public static void main(String args[]) throws DocumentException {
         SAXReader reader = new SAXReader();
         Document document = reader.read("DbListViewHandler.xml");

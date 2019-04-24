@@ -7,7 +7,7 @@
         <!ELEMENT rating     (#PCDATA)>
         ]>
 
-<!DOCTYPE comic-list SYSTEM "comic-list.dtd" >
+<!DOCTYPE comic-list SYSTEM "ComicList.dtd" >
 
 <comic-list>
     <entry>

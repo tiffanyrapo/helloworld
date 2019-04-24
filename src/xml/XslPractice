@@ -1,0 +1,70 @@
+
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="name.xsl"?>
+<employees>
+    <employee id="123">
+        <name>Roberts</name>
+        <salary payperiod="weekly">23500</salary>
+        <department>
+            <dept>Development</dept>
+            <title>Developer</title>
+        </department>
+    </employee>
+    <employee id="124">
+        <name>Freestone</name>
+        <salary payperiod="weekly">51000</salary>
+        <department>
+            <dept>Human Resources</dept>
+            <title>Recruiter</title>
+        </department>
+    </employee>
+    <employee id="125">
+        <name>Philips</name>
+        <salary payperiod="bi-weekly">45000</salary>
+        <department>
+            <dept>Development</dept>
+            <title>Tester</title>
+        </department>
+    </employee>
+    <employee id="126">
+        <name>Smith</name>
+        <salary payperiod="monthly">72000</salary>
+        <department>
+            <dept>User Education</dept>
+            <title>Editor</title>
+        </department>
+    </employee>
+</employees>
+
+
+<?xml version="1.0"?>
+<xsl:stylesheet
+version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+
+<xsl:template match="/">
+    <TABLE>
+        <xsl:apply-templates select="employee" />
+    </TABLE>
+</xsl:template>
+
+<xsl:template match="employee">
+    <TR>
+        <TD>
+            <FONT color="red">
+                <xsl:value-of select="./name"  />
+            </FONT>
+        </TD>
+        <TD>
+            <FONT color="blue">
+                <xsl:value-of select="./salary"  />
+            </FONT>
+        </TD>
+    </TR>
+</xsl:template>
+
+
+
+</xsl:stylesheet>
