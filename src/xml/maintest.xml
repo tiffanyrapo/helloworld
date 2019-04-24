@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE a[
+        <!ELEMENT a (#PCDATA|b*,c,d|)>
+        <!ELEMENT b (#PCDATA)>
+        <!ELEMENT c (x,y)>
+        <!ELEMENT d (#PCDATA)>
+        <!ELEMENT x (#PCDATA)>
+        <!ELEMENT y (#PCDATA)>
+        <!ELEMENT z ANY >
+        <!ATTLIST a id CDATA #IMPLIED>
+        <!ATTLIST b id #IDREFS>
+        ]>
+
+<a>
+    7
+    <b>7888</b>
+    <d></d>
+    <b>9876</b>
+    <c>
+        <x></x>
+        <y></y>
+    </c>
+</a>
+
+<a

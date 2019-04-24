@@ -38,7 +38,7 @@ class createDocument {
          * 讀檔
          */
         SAXReader reader = new SAXReader();
-        document = reader.read("d:\\createDocument.xml");
+        reader.read("d:\\createDocument.xml");
 
         /**
         for (Iterator<Element> it = root.elementIterator(); it.hasNext();) {
