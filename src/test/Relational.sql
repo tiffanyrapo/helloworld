@@ -21,7 +21,7 @@ A:
   where DEPARTMENT.NAME  = '生產部' ;
 
 3.select DEPARTMENT .name, EMPLOYEE .eid, EMPLOYEE .name, EMPLOYEE .salary from employee left join department on EMPLOYEE .deptno = DEPARTMENT .DNO
-  where DEPARTMENT .name = '台北市' order by DEPARTMENT .DNO , EMPLOYEE .eid asc;
+  where DEPARTMENT .area = '台北市' order by DEPARTMENT .DNO , EMPLOYEE .eid asc;
 
 
 
